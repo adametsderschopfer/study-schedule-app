@@ -1,0 +1,689 @@
+{
+  "translation": {
+    "app": {
+      "validation": {
+        "invalidEmail": "Некорректный email",
+        "correctlyFillAllFields": "Корректно заполните все поля",
+        "incorrectFieldValue": "Некорректное значение поля",
+        "invalidFieldValue": "Недопустимое значение: {{value}}",
+        "invalidFieldValueWithMax": "Недопустимое значение: {{value}}, разница между номерами не должна превышать: {{allow}}",
+        "cantBeEmpty": "Поле не может быть пустым",
+        "lengthMoreThan3": "Длина должна быть более 3 символов",
+        "lengthUpTo128": "Длина должна быть не более 128 символов",
+        "classroom_separated_error_character": "Диапазон аудиторий не должен содержать ничего кроме цифр",
+        "classroom_separated_error": "Неверное значение диапазона аудиторий"
+      },
+      "loading": {
+        "studyScheduleLoading": "Study Schedule: Загрузка данных"
+      },
+      "errors": {
+        "RETRY": "Повторить",
+        "DUPLICATE_FAILED": "При дублировании элемента возникла ошибка...",
+        "SELECT_LOAD_FAILED": "Не удалось выполнить загрузку, повторите попытку позже!",
+        "REQUEST_ERROR": "Ошибка загрузки ресурса. Невозможно установить соединение с сервером. Проверьте подключение к Интернету и попробуйте снова позже. Если проблема сохраняется, пожалуйста, обратитесь в службу поддержки интернет-провайдера.",
+        "PARAMS_ERROR": "Произошла ошибка: недостаточно параметров для загрузки ресурса. Пожалуйста, проверьте ваш запрос и убедитесь, что указаны все необходимые параметры для загрузки ресурса. Если вы не уверены, что параметры нужны, к технической поддержке веб-ресурса.",
+        "CODE_ERROR": "Проверьте свой код и убедитесь, что он соответствует требованиям и не содержит ошибок. Если проблема не устраняется, обратитесь к технической поддержке веб-ресурса.",
+        "ITEM_ERROR": {
+          "TITLE": "Ошибка рендеринга элемента",
+          "DESCRIPTION": "Произошла ошибка в переданных параметрах. Пожалуйста, проверьте переданные параметры и убедитесь, что они корректны и не вызывают ошибок. Если вы не можете найти проблему, попробуйте выполнить отладку, чтобы выявить причину ошибки. Если все еще не удается решить проблему, обратитесь к технической поддержке веб-ресурса."
+        }
+      },
+      "select": {
+        "nothing": "Не выбрано",
+        "empty": "Пусто",
+        "drop": "сбросить",
+        "loading": "Загрузка..."
+      },
+      "request": {
+        "failedLoad": "Не удалось выполнить загрузку ресурса...",
+        "failedDelete": "Не удалось выполнить удаление...",
+        "failedOperation": "Не удалось завершить операцию...",
+        "failedUpdate": "Не удалось обновить информацию...",
+        "searchFailedTitle": "Пусто",
+        "searchFailedDescription": "По данному запросу ничего не найдено"
+      },
+      "problemMessages": {
+        "notSet": "Не задан{{form}}"
+      },
+      "enum": {
+        "days": {
+          "MONDAY": "Понедельник",
+          "TUESDAY": "Вторник",
+          "WEDNESDAY": "Среда",
+          "THURSDAY": "Четверг",
+          "FRIDAY": "Пятница",
+          "SATURDAY": "Суббота",
+          "SUNDAY": "Воскресенье"
+        },
+        "repeatability": {
+          "ONCE": "Единоразово",
+          "EVERY_WEEK": "Каждую неделю",
+          "EVEN_WEEK": "Четная неделя",
+          "ODD_WEEK": "Нечетная неделя"
+        }
+      },
+      "studyScheduleTypeNames": {
+        "UNIVERSITY": "Университет",
+        "COLLEGE": "Колледж",
+        "SCHOOL": "Школа"
+      },
+      "notifications": {},
+      "store": {
+        "showAllFilter": "Все",
+        "study-schedule": {
+          "ScheduleType": {
+            "LECTURE": "Лекция",
+            "INTERNSHIP": "Производсвенная практика",
+            "EDUCATIONAL_PRACTICE": "Учебная практика",
+            "CONSULTATION": "Консультация",
+            "EXAM": "Экзамен"
+          },
+          "LevelsOfEducationTitle": "Уровень (Все)",
+          "FormsOfEducationTitle": "Форма (Все)",
+          "YearsOfEducationTitle": "Курс (Все)",
+          "LevelsOfEducationSchoolTitle": "Буква (Все)",
+          "YearsOfEducationSchoolTitle": "Класс (Все)",
+          "LevelsOfEducation": {
+            "1": "Бакалавриат",
+            "2": "Магистратура",
+            "3": "Специалитет"
+          },
+          "FormsOfEducation": {
+            "1": "Очно",
+            "2": "Очно-заочно",
+            "3": "Заочно"
+          },
+          "SubGroups_common": "Общая",
+          "SubGroups_1": "подгруппа",
+          "SubGroups_2": "подгруппы",
+          "SubGroups_3": "подгрупп",
+          "YearsOfEducation": "курс",
+          "YearsOfEducationSchool": "класс",
+          "building": {
+            "successEditToast": "Информаци о корпусе обновлена!",
+            "successAddToast": "Корпус добавлен!",
+            "errorAddToast": "Не удалось добавить новый корпус..."
+          },
+          "settings": {
+            "createItem": {
+              "created": "Занятие созданно!",
+              "duplicate_error": "Завершите настройку последнего созданного занятия...",
+              "max_error": "Превышен лимит доступных занятий..."
+            },
+            "changeTime": {
+              "success": "Время изменено!",
+              "requestError": "Не удалось изменить время занятия",
+              "invalid": "Проверьте корректность введенного времени (Пример: 09:15)"
+            },
+            "removeModeLesson": {
+              "success": "Занятие удалено!",
+              "error": "Не удалось удалить занятие..."
+            },
+            "removeMode": {
+              "success": "Режим удален!",
+              "error": "Не удалось удалить режим..."
+            },
+            "renameMode": {
+              "success": "Режим переименован!",
+              "error": "Не удалось переименовать режим"
+            },
+            "createMode": {
+              "success": "Режим звонков создан!",
+              "error": "Не удалось создать режим звонков..."
+            }
+          }
+        }
+      },
+      "search": {
+        "title": "Поиск"
+      },
+      "dropdownMenu": {
+        "remove": "Удалить",
+        "edit": "Редактировать",
+        "duplicate": "Дублировать"
+      },
+      "modals": {
+        "defaultRemoveMessage": "Вы уверены что хотите удалить?",
+        "delete": "Удалить",
+        "save": "Сохранить",
+        "cancel": "Отменить"
+      },
+      "menu": {
+        "header": {
+          "clients": "Клиенты",
+          "info": "Информация",
+          "settings": "Настройки"
+        },
+        "StudySchedule": {
+          "timetable": "Расписание",
+          "organizationalStructure": "Оргструктура",
+          "building": "Корпуса",
+          "settings": "Настройки",
+          "custom_users": "Пользователи"
+        }
+      },
+      "pages": {
+        "StudySchedule": {
+          "Home": {
+            "title": "Добро пожаловать в Study Schedule",
+            "subtitle": "Что бы приступить к созданию расписания,\nвыполните 5 простых действий",
+            "explanationSteps": {
+              "step_1": {
+                "UNIVERSITY.title": "Настройте время",
+                "COLLEGE.title": "Настройте время",
+                "SCHOOL.title": "Настройте время",
+                "UNIVERSITY.description": "Перед началом работы,\nперейдите в раздел “Настройки”\nи настройте расписание звонков",
+                "COLLEGE.description": "Перед началом работы,\nперейдите в раздел “Настройки”\nи настройте расписание звонков",
+                "SCHOOL.description": "Перед началом работы,\nперейдите в раздел “Настройки”\nи настройте расписание звонков"
+              },
+              "step_2": {
+                "UNIVERSITY.title": "Добавьте адреса",
+                "COLLEGE.title": "Добавьте адреса",
+                "SCHOOL.title": "Добавьте адреса",
+                "UNIVERSITY.description": "Перейдите в раздел “Корпуса”\nи внесите все адреса и аудитории\nв которых проходят занятия",
+                "COLLEGE.description": "Перейдите в раздел “Корпуса”\nи внесите все адреса и аудитории\nв которых проходят занятия",
+                "SCHOOL.description": "Перейдите в раздел “Корпуса”\nи внесите все адреса и кабинеты\nв которых проходят занятия"
+              },
+              "step_3": {
+                "UNIVERSITY.title": "Создайте оргструктуру",
+                "COLLEGE.title": "Создайте оргструктуру",
+                "SCHOOL.title": "Создайте оргструктуру",
+                "UNIVERSITY.description": "Перейдите в раздел “Оргструктура”, создайте факультеты и добавьте к ним кафедры",
+                "COLLEGE.description": "Перейдите в раздел “Оргструктура”, создайте специальности",
+                "SCHOOL.description": "Перейдите в раздел “Оргструктура”, создайте классы"
+              },
+              "step_4": {
+                "UNIVERSITY.title": "Заполните кафедру",
+                "COLLEGE.title": "Заполните кафедру",
+                "SCHOOL.title": "Заполните классы",
+                "UNIVERSITY.description": "Зайдите на вашу кафедру \nи заполните подразделы:\nпреподаватели, предметы\nи группы",
+                "COLLEGE.description": "Зайдите на вашу специальность \nи заполните подразделы:\nпреподаватели, предметы\nи группы",
+                "SCHOOL.description": "Заполните подразделы:\nучителя, предметы\nи классы"
+              },
+              "step_5": {
+                "UNIVERSITY.title": "Создайте расписание",
+                "COLLEGE.title": "Создайте расписание",
+                "SCHOOL.title": "Создайте расписание",
+                "UNIVERSITY.description": "В подразделе “Группы” зайдите \nв нужную группу и приступайте \nк созданию расписания\n",
+                "COLLEGE.description": "В подразделе “Группы” зайдите \nв нужную группу и приступайте \nк созданию расписания\n",
+                "SCHOOL.description": "В подразделе “Классы” выберите\nв нужный класс и приступайте \nк созданию расписания\n"
+              }
+            }
+          },
+          "Building": {
+            "HeadTitle": "Корпуса"
+          },
+          "Settings": {
+            "HeadTitle": "Настройки",
+            "explanationSteps": {
+              "step_1": {
+                "title": "Настройте расписание",
+                "description": "Настройте расписание звонков вашего учебного заведения."
+              },
+              "step_2": {
+                "title": "Добавьте режимы",
+                "description": "Если у вас несколько режимов звонков, нажмите кнопку “добавить режим”."
+              },
+              "step_3": {
+                "title": "Управление занятиями",
+                "description": "Управляйте занятиями внутри режима. \nВы можете отключать уроки с помощью переключателей или добавлять новые, \n нажав “+” на верхней панели."
+              }
+            }
+          },
+          "orgStructure": {
+            "breadcrumbsName": {
+              "UNIVERSITY": "Факультеты",
+              "COLLEGE": "Специальности"
+            },
+            "tabMenu": {
+              "teachers": {
+                "UNIVERSITY": "Преподаватели",
+                "COLLEGE": "Преподаватели",
+                "SCHOOL": "Учителя"
+              },
+              "subjects": {
+                "UNIVERSITY": "Предметы",
+                "COLLEGE": "Предметы",
+                "SCHOOL": "Предметы"
+              },
+              "groups": {
+                "UNIVERSITY": "Группы",
+                "COLLEGE": "Группы",
+                "SCHOOL": "Классы"
+              }
+            },
+            "faculties": {
+              "school": "Школа",
+              "headTitle": {
+                "UNIVERSITY": "Факультеты",
+                "COLLEGE": "Специальности"
+              },
+              "createFaculties": {
+                "UNIVERSITY": "Создать факультет",
+                "COLLEGE": "Создать специальность"
+              },
+              "editFaculty": {
+                "UNIVERSITY": "Редактировать факультет",
+                "COLLEGE": "Редактировать специальность"
+              },
+              "createDepartment": "Создать кафедру",
+              "editDepartment": "Редактировать кафедру",
+              "searchPlaceholder": "Введите название",
+              "dataUpdated": "Данные оргструктуры обновлены",
+              "addDepartmentButton": "Добавить кафедру",
+              "departmentDeleted": "Кафедра успешно удалена",
+              "facultyDeleted": {
+                "UNIVERSITY": "Факультет успешно удален",
+                "COLLEGE": "Специальность успешно удалена"
+              },
+              "createFaculty": {
+                "UNIVERSITY": "Создать факультет",
+                "COLLEGE": "Создать специальность"
+              },
+              "deleteDepartment": "Удалить кафедру",
+              "deleteFaculty": {
+                "UNIVERSITY": "Удалить факультет",
+                "COLLEGE": "Удалить специальность"
+              },
+              "emptyTitle": {
+                "UNIVERSITY": "Нет факультетов",
+                "COLLEGE": "Нет специальностей"
+              },
+              "emptyDescription": {
+                "UNIVERSITY": "Создайте факультеты и добавьте к ним кафедры,\nчто бы стало активно заполнение разделов:\nпреподаватели, предметы и группы",
+                "COLLEGE": "Добавьте необходимые специальности\nчто бы стало активно заполнение разделов:\nпреподаватели, предметы и группы "
+              },
+              "fieldFacultyName": {
+                "UNIVERSITY": "Название факультета",
+                "COLLEGE": "Название специальности"
+              },
+              "fieldDepartmentName": "Название кафедры",
+              "facultyFormNotice": "После создания факультета станет доступна функция\nдобавления кафедры ",
+              "fieldPlaceholderFacultyName": {
+                "UNIVERSITY": "Введите название факультета",
+                "COLLEGE": "Введите название специальности"
+              },
+              "fieldPlaceholderDepartmentName": "Введите название кафедры"
+            },
+            "teachers": {
+              "toastTeacherAdded": "Преподаватель добавлен",
+              "toastTeacherEdited": "Данные преподователя обновлены",
+              "toastTeacherFailedUpdate": "Не удалось обновить данные преподователей",
+              "sortByFullName": "По имени А-Я",
+              "sortByDegree": "По стпепени А-Я",
+              "sortByPosition": "По должности А-Я",
+              "sortByFullNameRevert": "По имени Я-А",
+              "sortByDegreeRevert": "По стпепени Я-А",
+              "sortByPositionRevert": "По должности Я-А",
+              "teacherRemoved": "Преподаватель успешно удален",
+              "emptyTitle": {
+                "UNIVERSITY": "Нет преподавателей",
+                "COLLEGE": "Нет преподавателей",
+                "SCHOOL": "Нет учителей"
+              },
+              "emptyDescription": {
+                "UNIVERSITY": "Добавьте преподавателей, \nчто бы активировать функцию создания расписания",
+                "COLLEGE": "Добавьте преподавателей, \nчто бы активировать функцию создания расписания",
+                "SCHOOL": "Добавьте учителей, \nчто бы активировать функцию создания расписания"
+              },
+              "addButtonText": {
+                "UNIVERSITY": "Добавить преподавателя",
+                "COLLEGE": "Добавить преподавателя",
+                "SCHOOL": "Добавить учителя"
+              },
+              "addModalTitle": {
+                "UNIVERSITY": "Добавить преподавателя",
+                "COLLEGE": "Добавить преподавателя",
+                "SCHOOL": "Добавить учителя"
+              },
+              "editModalTitle": {
+                "UNIVERSITY": "Редактировать преподавателя",
+                "COLLEGE": "Редактировать преподавателя",
+                "SCHOOL": "Редактировать учителя"
+              },
+              "removeModalTitle": {
+                "UNIVERSITY": "Удалить преподавателя",
+                "COLLEGE": "Удалить преподавателя",
+                "SCHOOL": "Удалить учителя"
+              },
+              "modalFieldFIOTitle": {
+                "UNIVERSITY": "ФИО",
+                "COLLEGE": "ФИО",
+                "SCHOOL": "ФИО"
+              },
+              "modalFieldFIOPlaceholder": {
+                "UNIVERSITY": "Введите ФИО преподавателя",
+                "COLLEGE": "Введите ФИО преподавателя",
+                "SCHOOL": "Введите ФИО учителя"
+              },
+              "modalFieldPositionPlaceholder": {
+                "UNIVERSITY": "Введите должность преподавателя",
+                "COLLEGE": "Введите должность преподавателя",
+                "SCHOOL": "Введите должность учителя"
+              },
+              "modalFieldDegreePlaceholder": {
+                "UNIVERSITY": "Введите степень преподавателя",
+                "COLLEGE": "Введите дисциплина преподавателя",
+                "SCHOOL": "Введите дисциплина учителя"
+              },
+              "modalFieldPositionTitle": {
+                "UNIVERSITY": "Должность",
+                "COLLEGE": "Должность",
+                "SCHOOL": "Должность"
+              },
+              "modalFieldDegreeTitle": {
+                "UNIVERSITY": "Степень",
+                "COLLEGE": "Дисциплина",
+                "SCHOOL": "Дисциплина"
+              }
+            },
+            "subject": {
+              "counterText": "Всего добавлено: ",
+              "createButtonText": "Добавить предмет",
+              "emptyTitle": "Нет предметов",
+              "emptyDescription": "Добавьте предметы, \nчто бы активировать функцию создания расписания",
+              "editModalTitle": "Редактировать предмет",
+              "deleteModalTitle": "Удалить предмет",
+              "createModalTitle": "Добавить предмет",
+              "createModalFieldNameTitle": "Название предмета",
+              "createModalFieldNamePlaceholder": "Введите название",
+              "createModalFieldAddInAllSpecialist": "Добавить во все специальности",
+              "toastSubjectAdded": "Предмет добавлен",
+              "toastSubjectDeleted": "Предмет удален",
+              "toastSubjectEdited": "Данные предмета обновлены",
+              "toastSubjectFailedAdd": "Не удалось добавить предмет",
+              "toastSubjectFailedEdit": "Не удалось обновить данные предмета",
+              "toastSubjectFailedDelete": "Не удалось удалить предмет"
+            },
+            "group": {
+              "breadcrumbTitle": "Классы",
+              "emptyListTitle": {
+                "SCHOOL": "Нет классов",
+                "COLLEGE": "Нет групп",
+                "UNIVERSITY": "Нет групп"
+              },
+              "emptyListDescription": {
+                "SCHOOL": "Добавьте классы, что бы приступить к созданию расписания",
+                "COLLEGE": "Добавьте группы, что бы приступить к созданию расписания",
+                "UNIVERSITY": "Добавьте группы, что бы приступить к созданию расписания"
+              },
+              "notifyAdded": "Группа (класс) создан(-а)",
+              "notifyEdited": "Группа (класс) отредактирован(-а)",
+              "notifyDeleted": "Группа (класс) удален(-а)",
+              "notifyFailedToAdd": "Не удалось добавить группу (класс)",
+              "notifyFailedToEdit": "Не удалось редактировать группу (класс)",
+              "notifyFailedToDelete": "Не удалось удалть группу (класс)",
+              "deleteGroupModalTitle": "Удалить группу (класс) ?",
+              "createGroupModalTitle": "Создать группу (класс)",
+              "editGroupModalTitle": "Редактировать группу (класс)",
+              "createGroup": {
+                "schoolClassroomFieldTitle": "Класс",
+                "schoolClassroomFieldPlaceholder": "Выберите класс",
+                "schoolLevelFieldTitle": "Буква",
+                "schoolLevelFieldPlaceholder": "Выберите букву",
+                "schoolTeacherFieldTitle": "Классный руководитель",
+                "schoolTeacherFieldPlaceholder": "Выберите классного руководителя",
+                "schoolNameFieldTitle": "Образовательная программа",
+                "schoolNameFieldPlaceholder": "Введите образовательную программу",
+                "collegeNameFieldTitle": "Название группы",
+                "collegeNameFieldPlaceholder": "Введите название группы",
+                "collegeCourseFieldTitle": "Курс",
+                "collegeCourseFieldPlaceholder": "Выберите курс",
+                "collegeFormOfEducationFieldTitle": "Форма обучения",
+                "collegeFormOfEducationFieldPlaceholder": "Выберите форму обучения",
+                "collegeDepartmentFieldTitle": "Направление",
+                "collegeDepartmentFieldPlaceholder": "Выберите направление",
+                "universityNameFieldTitle": "Название группы",
+                "universityNameFieldPlaceholder": "Введите название группы",
+                "universitySubGroupFieldTitle": "Подгруппы",
+                "universitySubGroupFieldPlaceholder": "Выберите количество подгрупп",
+                "universityDegreeFieldTitle": "Уровень",
+                "universityDegreeFieldPlaceholder": "Выберите уровень",
+                "universityCourseFieldTitle": "Курс",
+                "universityCourseFieldPlaceholder": "Выберите курс",
+                "universityFormOfEducationFieldTitle": "Форма обучения",
+                "universityFormOfEducationFieldPlaceholder": "Выберите форму обучения",
+                "universityDepartmentFieldTitle": "Кафедра",
+                "universityDepartmentFieldPlaceholder": "Выберите кафедру",
+                "universityFacultyFieldTitle": "Факультет",
+                "universityFacultyFieldPlaceholder": "Выберите факультет"
+              },
+              "addGroupButton": {
+                "SCHOOL": "Добавить класс",
+                "COLLEGE": "Добавить группу",
+                "UNIVERSITY": "Добавить группу"
+              },
+              "sortName_Level": "Уровень",
+              "sortName_Course": {
+                "SCHOOL": "Класс",
+                "COLLEGE": "Курс",
+                "UNIVERSITY": "Курс"
+              },
+              "sortName_Form": {
+                "SCHOOL": "Буква",
+                "COLLEGE": "Форма",
+                "UNIVERSITY": "Форма"
+              }
+            },
+            "schedule": {
+              "datePickerDescription": "Выберите день или задайте диапазон дат. Выберите дату начала и окончания периода.",
+              "lessonEmpty": "Нет занятий",
+              "lesson": {
+                "SCHOOL": "урок",
+                "COLLEGE": "пара",
+                "UNIVERSITY": "пара"
+              },
+              "emptyListTitle": "Электронное расписание",
+              "emptyListDescription": {
+                "SCHOOL": "Что бы начать работу, добавьте любой урок в расписание",
+                "COLLEGE": "Что бы начать работу, добавьте любую пару в расписание",
+                "UNIVERSITY": "Что бы начать работу, добавьте любую пару в расписание"
+              },
+              "removeTitle": {
+                "SCHOOL": "Удалить урок",
+                "COLLEGE": "Удалить пару",
+                "UNIVERSITY": "Удалить пару"
+              },
+              "addButton": {
+                "SCHOOL": "Добавить урок",
+                "COLLEGE": "Добавить пару",
+                "UNIVERSITY": "Добавить пару"
+              },
+              "addModalTitle": {
+                "SCHOOL": "Добавить урок",
+                "COLLEGE": "Добавить пару",
+                "UNIVERSITY": "Добавить пару"
+              },
+              "editModalTitle": {
+                "SCHOOL": "Редактировать урок",
+                "COLLEGE": "Редактировать пару",
+                "UNIVERSITY": "Редактировать пару"
+              },
+              "filter": {
+                "all": "Все",
+                "evenWeek": "Четная неделя",
+                "oddWeek": "Нечетная неделя"
+              },
+              "week": {
+                "even": "ч/н",
+                "odd": "н/н"
+              },
+              "notifyCreated": "Занятие создано",
+              "notifyCreateFailed": "Не удалось создать занятие",
+              "notifyDeleted": "Занятие удалено",
+              "notifyEdited": "Занятие обновлено",
+              "notifyEditFailed": "Не удалось редактировать занятие",
+              "fieldSettingItemTitle": "Режим звонков",
+              "fieldSettingItemPlaceholder": "Выберите режим звонков",
+              "fieldSettingsSelectLessonTitle": {
+                "SCHOOL": "урок",
+                "COLLEGE": "пара",
+                "UNIVERSITY": "пара"
+              },
+              "fieldDayOfWeekTitle": "Выберите день недели",
+              "fieldDayOfWeekPlaceholder": "День недели",
+              "fieldRepeatabilityTitle": "Повторяемость",
+              "fieldRepeatabilityPlaceholder": "Выберите повторяемость",
+              "fieldTypeTitle": "Тип занятия",
+              "fieldTypePlaceholder": "Выберите тип занятия",
+              "fieldBuildingTitle": "Корпус",
+              "fieldBuildingPlaceholder": "Выберите корпус",
+              "fieldClassroomNoOptionsMessage": "Сначала выберите корпус",
+              "fieldClassroomTitle": {
+                "SCHOOL": "Кабинет",
+                "COLLEGE": "Аудитория",
+                "UNIVERSITY": "Аудитория"
+              },
+              "fieldClassroomPlaceholder": {
+                "SCHOOL": "Выберите кабинет",
+                "COLLEGE": "Выберите аудиторию",
+                "UNIVERSITY": "Выберите аудиторию"
+              },
+              "fieldTeacherTitle": "Преподаватель",
+              "fieldTeacherPlaceholder": "Выберите преподавателя",
+              "fieldSubjectTitle": "Предмет",
+              "fieldSubjectPlaceholder": "Выберите предмет",
+              "fieldSubgroupTitle": "Подгруппа",
+              "fieldSubgroupPlaceholder": "Выберите подгруппу",
+              "fieldRepeatStartTitle": {
+                "SCHOOL": "Первый урок",
+                "COLLEGE": "Первая пара",
+                "UNIVERSITY": "Первая пара"
+              },
+              "fieldRepeatStartPlaceholder": "Выберите дату",
+              "fieldRepeatEndTitle": {
+                "SCHOOL": "Последний урок",
+                "COLLEGE": "Последняя пара",
+                "UNIVERSITY": "Последняя пара"
+              },
+              "fieldRepeatEndPlaceholder": "Выберите дату",
+              "tableNotify": "Что бы добавить пару нажмите на кнопку “Добавить пару” или нажмите на плюс в ячейке расписания"
+            }
+          },
+          "enum": {
+            "EScheduleType": {
+              "1": "Лекция",
+              "2": "Производственная практика",
+              "3": "Учебная практика",
+              "4": "Консультация",
+              "5": "Экзамен"
+            }
+          },
+          "schedule": {
+            "headTitle": "Электронное расписание",
+            "tabItemSearchByGroup": {
+              "UNIVERSITY": "Поиск по группе",
+              "COLLEGE": "Поиск по группе",
+              "SCHOOL": "Поиск по классу"
+            },
+            "tabItemSearchByTeacher": {
+              "UNIVERSITY": "Поиск по преподавателю",
+              "COLLEGE": "Поиск по преподавателю",
+              "SCHOOL": "Поиск по учителю"
+            },
+            "tabItemSearchByClassroom": {
+              "UNIVERSITY": "Поиск по аудитории",
+              "COLLEGE": "Поиск по аудитории",
+              "SCHOOL": "Поиск по кабинету"
+            },
+            "showSchedule": "Показать расписание",
+            "groupFieldTitle": "Группа",
+            "backToTheScheduleFilter": "Назад к фильтрам",
+            "scheduleTitle": "Расписание",
+            "downloadXLS": "Скачать XLS",
+            "groupFieldPlaceholder": "Выберите группу",
+            "fixedDate": {
+              "now": "Сегодня",
+              "tomorrow": "Завтра",
+              "currentWeek": "Текущая неделя",
+              "nextWeek": "Следующая неделя"
+            }
+          },
+          "ContentBlockHead": {
+            "today": "Сегодня",
+            "time": "Время"
+          }
+        },
+        "Login": {
+          "fieldEmailTitle": "Email",
+          "fieldEmailPlaceholder": "Введите email",
+          "fieldPasswordTitle": "Пароль",
+          "fieldPasswordPlaceholder": "Введите пароль",
+
+          "submitButton": "Войти",
+          "submitError": "Неверный email и/или пароль"
+        }
+      },
+      "features": {
+        "user": {
+          "user-logout-button": {
+            "exit": "Выход"
+          }
+        },
+        "study-schedule": {
+          "building": {
+            "addBuildingButton": "Добавить корпус",
+            "emptyBuildingTitle": "Нет корпусов",
+            "emptyBuildingDescription": "Добавьте корпуса и их адреса, что бы активировать\nраздел “аудитория” в расписании",
+            "RemoveHeaderTitle": "Удалить корпус",
+            "buildingRemovedToast": "Корпус успешно удален",
+            "searchInputPlaceholder": "Введите название",
+            "buildingModalAddTitle": "Добавить корпус",
+            "buildingModalEditTitle": "Редактировать корпус",
+            "buildingModalFieldTitle": "Номер корпуса",
+            "buildingModalFieldAddress": "Адрес",
+            "buildingModalFieldClassroom": "Кабинеты/Аудитории",
+            "buildingModalFieldTitle_placeholder": "Введите номер",
+            "buildingModalFieldAddress_placeholder": "Введите адрес",
+            "buildingModalFieldClassroom_placeholder": "Заполните аудитории"
+          },
+          "settings": {
+            "settings-modes": {
+              "modalCreator": {
+                "headerTitle": "Добавить режим звонков",
+                "field_name": "Название режима",
+                "field_name_placeholder": "Введите название режима",
+                "field_lessons": "Количество уроков",
+                "field_lessons_hint": "1 ячейка = 1 уроку",
+                "saveButton": "Сохранить"
+              },
+              "ModeRemoveTitle": "Режим",
+              "rename": "Переименовать",
+              "editingCanceled": "Редактирование отменено!",
+              "delete": "Удалить",
+              "lessonItem": "Занятие",
+              "lessonsError": "Не удалось найти выбранный режим",
+              "add": "Добавить режим звонков",
+              "emptyLessonTitle": "Нет уроков",
+              "emptyLessonDescription": "Добавьте уроки, что бы продолжить\nнастройку режима звонков",
+              "emptyModesTitle": "Нет режимов",
+              "emptyModesDescription": "Добавьте режимы, что бы начать настройку"
+            }
+          },
+          "timetable": {
+            "timetable-filter": {
+              "submitFormButton": "Показать расписание",
+              "Tabs": {
+                "UNIVERSITY": {
+                  "group": "Поиск по группе",
+                  "teacher": "Поиск по преподавателю",
+                  "room": "Поиск по аудитории"
+                },
+                "COLLEGE": {
+                  "group": "Поиск по группе",
+                  "teacher": "Поиск по преподавателю",
+                  "room": "Поиск по аудитории"
+                },
+                "SCHOOL": {
+                  "group": "Поиск по классу",
+                  "teacher": "Поиск по учителю",
+                  "room": "Поиск по кабинету"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

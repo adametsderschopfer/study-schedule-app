@@ -1,0 +1,13 @@
+image: docker.io/mblxa/study-schedule-tests:4
+
+env:
+  - BUILD_DIR: /app
+
+pipelines:
+  default:
+    - parallel:
+        - step:
+            name: Code linting
+            script:
+              - cp -R /app/node_modules .
+              - npm run lint:eslint

@@ -1,0 +1,13 @@
+export { loginSlice } from "@store/modules/auth/sections/login/slice";
+export { groupScheduleSlice } from "@store/modules/study-schedule/sections/faculties/sections/group-schedule/slice";
+export { scheduleSlice } from "@store/modules/study-schedule/sections/schedule/slice";
+export { appSlice } from "./app/slice";
+export { userSlice } from "./user/slice";
+export { studyScheduleSlice } from "./study-schedule/slice";
+export { settingsSlice } from "./study-schedule/sections/settings/slice";
+export { buildingSlice } from "./study-schedule/sections/building/slice";
+export { facultySlice } from "./study-schedule/sections/faculties/slice";
+export { teachersSlice } from "./study-schedule/sections/faculties/sections/teachers/slice";
+export { subjectSlice } from "./study-schedule/sections/faculties/sections/subject/slice";
+export { departmentDetailSlice } from "@store/modules/study-schedule/sections/faculties/sections/department/slice";
+export { groupSlice } from "@store/modules/study-schedule/sections/faculties/sections/group/slice";

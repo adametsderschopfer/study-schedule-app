@@ -1,0 +1,672 @@
+{
+  "translation": {
+    "app": {
+      "validation": {
+        "invalidEmail": "Incorrect email",
+        "correctlyFillAllFields": "Correctly fill in all fields",
+        "incorrectFieldValue": "Incorrect value",
+        "cantBeEmpty": "The field cannot be empty",
+        "invalidFieldValue": "Invalid value: {{value}}",
+        "invalidFieldValueWithMax": "Invalid value: {{value}}, the difference between the numbers must not exceed: {{allow}}",
+        "lengthMoreThan3": "Length must be more than 3 characters",
+        "lengthUpTo128": "Length must be no more than 128 characters",
+        "classroom_separated_error_character": "Classroom range must contain nothing but numbers",
+        "classroom_separated_error": "Incorrect classroom range value of classrooms should not contain anything but numbers"
+      },
+      "loading": {
+        "studyScheduleLoading": "Study Schedule: load data"
+      },
+      "request": {
+        "failedLoad": "Failed to load resource...",
+        "failedDelete": "Failed to delete...",
+        "failedOperation": "Failed to complete operation...",
+        "failedUpdate": "Failed to update information...",
+        "searchFailedTitle": "Empty",
+        "searchFailedDescription": "No results found for your search"
+      },
+      "problemMessages": {
+        "notSet": "Not set"
+      },
+      "search": {
+        "title": "Search"
+      },
+      "studyScheduleTypeNames": {
+        "UNIVERSITY": "University",
+        "COLLEGE": "College",
+        "SCHOOL": "School"
+      },
+      "select": {
+        "nothing": "nothing",
+        "drop": "drop",
+        "empty": "Пусто",
+        "loading": "Loading..."
+      },
+      "errors": {
+        "RETRY": "Retry",
+        "DUPLICATE_FAILED": "An error occurred while duplicating an element...",
+        "SELECT_LOAD_FAILED": "Failed to load, please try again later!",
+        "REQUEST_ERROR": "Error loading resource. Unable to establish a connection to the server. Check your internet connection and try again later. If the problem persists, please contact your ISP support.",
+        "PARAMS_ERROR": "An error occurred: Not enough parameters to load the resource. Please check your request and make sure that all required parameters are provided to download the resource. If you are not sure what parameters are needed, refer to the documentation or technical support of the web resource.",
+        "CODE_ERROR": "Check your code to make sure it meets the requirements and is free of bugs. If the problem persists, contact the technical support of the web resource.",
+        "ITEM_ERROR": {
+          "TITLE": "Element rendering error",
+          "DESCRIPTION": "An error occurred in the parameters passed. Please check the passed parameters and make sure they are correct and do not cause errors. If you can't find the problem, try debugging to find the cause of the error. If you still cannot solve the problem, contact the technical support of the web resource."
+        }
+      },
+      "enum": {
+        "days": {
+          "MONDAY": "Monday",
+          "TUESDAY": "Tuesday",
+          "WEDNESDAY": "Wednesday",
+          "THURSDAY": "Thursday",
+          "FRIDAY": "Friday",
+          "SATURDAY": "Saturday",
+          "SUNDAY": "Sunday"
+        },
+        "repeatability": {
+          "ONCE": "Once",
+          "EVERY_WEEK": "Every week",
+          "EVEN_WEEK": "Even week",
+          "ODD_WEEK": "Odd week"
+        }
+      },
+      "store": {
+        "study-schedule": {
+          "ScheduleType": {
+            "LECTURE": "Lecture",
+            "INTERNSHIP": "Internship",
+            "EDUCATIONAL_PRACTICE": "Educational practice",
+            "CONSULTATION": "Consultation",
+            "EXAM": "Exam"
+          },
+          "LevelsOfEducationTitle": "Level (All)",
+          "FormsOfEducationTitle": "Form (All)",
+          "YearsOfEducationTitle": "Course (All)",
+          "LevelsOfEducationSchoolTitle": "Level (All)",
+          "YearsOfEducationSchoolTitle": "Class (All)",
+          "SubGroups_common": "Common",
+          "SubGroups_1": "subgroup",
+          "SubGroups_2": "subgroups",
+          "SubGroups_3": "subgroups",
+          "LevelsOfEducation": {
+            "1": "Undergraduate",
+            "2": "Master degree",
+            "3": "Specialty"
+          },
+          "FormsOfEducation": {
+            "1": "Full-time",
+            "2": "Part-time",
+            "3": "Correspondence"
+          },
+          "YearsOfEducation": "course",
+          "YearsOfEducationSchool": "class",
+          "building": {
+            "successEditToast": "Building info updated!",
+            "successAddToast": "Building added!",
+            "errorAddToast": "Failed to add new building..."
+          },
+          "settings": {
+            "createItem": {
+              "created": "Lesson created!",
+              "duplicate_error": "Finish setting up the last activity you created...",
+              "max_error": "Exceeded the limit of available activities..."
+            },
+            "changeTime": {
+              "success": "Time changed!",
+              "requestError": "Failed to change class time",
+              "invalid": "Check if the entered time is correct (Example: 09:15)"
+            },
+            "removeModeLesson": {
+              "success": "Lesson deleted!",
+              "error": "Failed to delete lesson..."
+            },
+            "removeMode": {
+              "success": "Mode removed!",
+              "error": "Unable to delete mode..."
+            },
+            "renameMode": {
+              "success": "Mode renamed!",
+              "error": "Failed to rename mode"
+            },
+            "createMode": {
+              "success": "Call mode created!",
+              "error": "Failed to create call mode..."
+            }
+          }
+        }
+      },
+      "modals": {
+        "defaultRemoveMessage": "Are you sure you want to delete?",
+        "delete": "Delete",
+        "save": "Save",
+        "cancel": "Cancel"
+      },
+      "dropdownMenu": {
+        "duplicate": "Duplicate",
+        "remove": "Delete",
+        "edit": "Edit"
+      },
+      "menu": {
+        "header": {
+          "clients": "Clients",
+          "info": "Information",
+          "settings": "Settings"
+        },
+        "StudySchedule": {
+          "timetable": "Timetable",
+          "organizationalStructure": "Organizational Structure",
+          "building": "Building",
+          "settings": "Settings",
+          "custom_users": "Users"
+        }
+      },
+      "pages": {
+        "StudySchedule": {
+          "Home": {
+            "title": "Welcome to Study Schedule",
+            "subtitle": "To start creating a schedule,\nfollow 5 simple steps",
+            "explanationSteps": {
+              "step_1": {
+                "UNIVERSITY.title": "Set up the time",
+                "COLLEGE.title": "Set up the time",
+                "SCHOOL.title": "Set up the time",
+                "UNIVERSITY.description": "Before starting work,\ngo to \"Settings\"\nand set up a call schedule",
+                "COLLEGE.description": "Before starting work,\ngo to \"Settings\"\nand set up a call schedule",
+                "SCHOOL.description": "Before starting work,\ngo to \"Settings\"\nand set up a call schedule"
+              },
+              "step_2": {
+                "UNIVERSITY.title": "Add addresses",
+                "COLLEGE.title": "Add addresses",
+                "SCHOOL.title": "Add addresses",
+                "UNIVERSITY.description": "Go to the \"Cases\" section\nand enter all addresses and classroom\nin which classes are held",
+                "COLLEGE.description": "Go to the \"Cases\" section\nand enter all addresses and classrooms\nin which classes are held",
+                "SCHOOL.description": "Go to the \"Cases\" section\nand enter all addresses and offices\nin which classes are held"
+              },
+              "step_3": {
+                "UNIVERSITY.title": "Create an organizational structure",
+                "COLLEGE.title": "Create an organizational structure",
+                "SCHOOL.title": "Create an organizational structure",
+                "UNIVERSITY.description": "Go to the “Organizational Structure” section, create faculties and add departments to them",
+                "COLLEGE.description": "Go to the “Organizational Structure” section, create specialties",
+                "SCHOOL.description": "Go to the “Organizational Structure” section, create classes"
+              },
+              "step_4": {
+                "UNIVERSITY.title": "Fill the pulpit",
+                "COLLEGE.title": "Fill the pulpit",
+                "SCHOOL.title": "Fill the pulpit",
+                "UNIVERSITY.description": "Enter your department\nand complete the subsections:\nteachers, subjects\nand groups",
+                "COLLEGE.description": "Go to your specialty\nand complete the subsections:\nteachers, subjects\nand groups",
+                "SCHOOL.description": "Complete the subsections:\nteachers, subjects\nand classes"
+              },
+              "step_5": {
+                "UNIVERSITY.title": "Create a schedule",
+                "COLLEGE.title": "Create a schedule",
+                "SCHOOL.title": "Create a schedule",
+                "UNIVERSITY.description": "In the \"Groups\" subsection, go to\nto the desired group and proceed\nto create a schedule",
+                "COLLEGE.description": "In the \"Groups\" subsection, go to\nto the desired group and proceed\nto create a schedule",
+                "SCHOOL.description": "In the \"Classes\" subsection, select\nto the right class and start\nto create a schedule"
+              }
+            }
+          },
+          "Building": {
+            "HeadTitle": "Building"
+          },
+          "Settings": {
+            "HeadTitle": "Settings",
+            "explanationSteps": {
+              "step_1": {
+                "title": "Set up a schedule",
+                "description": "Set up your school's bell schedule."
+              },
+              "step_2": {
+                "title": "Add Modes",
+                "description": "If you have multiple call modes, click the “add mode” button."
+              },
+              "step_3": {
+                "title": "Class Management",
+                "description": "Manage activities within the mode.\nYou can turn off lessons using radio buttons or add new ones,\n by clicking “+” on the top bar."
+              }
+            }
+          },
+          "orgStructure": {
+            "breadcrumbsName": {
+              "UNIVERSITY": "Faculties",
+              "COLLEGE": "Specialties"
+            },
+            "tabMenu": {
+              "teachers": {
+                "UNIVERSITY": "Teachers",
+                "COLLEGE": "Teachers",
+                "SCHOOL": "Teachers"
+              },
+              "subjects": {
+                "UNIVERSITY": "Subjects",
+                "COLLEGE": "Subjects",
+                "SCHOOL": "Subjects"
+              },
+              "groups": {
+                "UNIVERSITY": "Groups",
+                "COLLEGE": "Groups",
+                "SCHOOL": "Classrooms"
+              }
+            },
+            "faculties": {
+              "school": "School",
+              "headTitle": {
+                "UNIVERSITY": "Faculties",
+                "COLLEGE": "Specialties"
+              },
+              "createFaculties": {
+                "UNIVERSITY": "Create a faculty",
+                "COLLEGE": "Create specialty"
+              },
+              "editFaculty": {
+                "UNIVERSITY": "Edit faculty",
+                "COLLEGE": "Edit specialty"
+              },
+              "createFaculty": {
+                "UNIVERSITY": "Create faculty",
+                "COLLEGE": "Create specialty"
+              },
+              "deleteFaculty": {
+                "UNIVERSITY": "Delete faculty",
+                "COLLEGE": "Delete specialty"
+              },
+              "emptyTitle": {
+                "UNIVERSITY": "No faculties",
+                "COLLEGE": "No specialties"
+              },
+              "fieldFacultyName": {
+                "UNIVERSITY": "Faculty name",
+                "COLLEGE": "Specialty name"
+              },
+              "fieldPlaceholderFacultyName": {
+                "UNIVERSITY": "Enter faculty name",
+                "COLLEGE": "Enter specialty name"
+              },
+              "searchPlaceholder": "Enter the title",
+              "addDepartmentButton": "Add a department",
+              "dataUpdated": "Organizational structure data updated",
+              "departmentDeleted": "Department deleted successfully",
+              "facultyDeleted": {
+                "UNIVERSITY": "Faculty deleted successfully",
+                "COLLEGE": "Specialty deleted successfully"
+              },
+              "emptyDescription": {
+                "UNIVERSITY": "Create faculties and add departments to them,\nso that the filling of sections becomes active:\nteachers, subjects and groups",
+                "COLLEGE": "Add the required specialties\nso that the filling of sections becomes active:\nteachers, subjects and groups"
+              },
+              "createDepartment": "Create department",
+              "editDepartment": "Edit department",
+              "fieldDepartmentName": "Department name",
+              "deleteDepartment": "Delete department",
+              "facultyFormNotice": "After the faculty is created, the function will become available\nadding a department",
+              "fieldPlaceholderDepartmentName": "Enter department name"
+            },
+            "group": {
+              "breadcrumbTitle": "Classes",
+              "emptyListTitle": {
+                "SCHOOL": "No classes",
+                "COLLEGE": "No groups",
+                "UNIVERSITY": "No groups"
+              },
+              "emptyListDescription": {
+                "SCHOOL": "Add classes to start creating a schedule",
+                "COLLEGE": "Add groups to start creating a schedule",
+                "UNIVERSITY": "Add groups to start creating a schedule"
+              },
+              "notifyAdded": "Group (class) created",
+              "notifyEdited": "Group (class) edited",
+              "notifyDeleted": "Group (class) deleted",
+              "notifyFailedToAdd": "Failed to add new group (classroom)",
+              "notifyFailedToEdit": " Failed to edit group (classroom)",
+              "notifyFailedToDelete": "Failed to delete group (classroom)",
+              "deleteGroupModalTitle": "Delete group (classroom) ?",
+              "createGroupModalTitle": "Create group (classroom)",
+              "editGroupModalTitle": "Edit group (classroom)",
+              "createGroup": {
+                "schoolClassroomFieldTitle": "Classroom",
+                "schoolClassroomFieldPlaceholder": "Select classroom",
+                "schoolLevelFieldTitle": "Level",
+                "schoolLevelFieldPlaceholder": "Select level",
+                "schoolTeacherFieldTitle": "Classroom teacher",
+                "schoolTeacherFieldPlaceholder": "Select classroom teacher",
+                "schoolNameFieldTitle": "Educational program",
+                "schoolNameFieldPlaceholder": "Enter educational program",
+                "collegeNameFieldTitle": "Group name",
+                "collegeNameFieldPlaceholder": "Enter group name",
+                "collegeCourseFieldTitle": "Course",
+                "collegeCourseFieldPlaceholder": "Select course",
+                "collegeFormOfEducationFieldTitle": "Form of education",
+                "collegeFormOfEducationFieldPlaceholder": "Select form of education",
+                "collegeDepartmentFieldTitle": "Department",
+                "collegeDepartmentFieldPlaceholder": "Select a department",
+                "universityNameFieldTitle": "Group name",
+                "universityNameFieldPlaceholder": "Enter group name",
+                "universitySubGroupFieldTitle": "Subgroups",
+                "universitySubGroupFieldPlaceholder": "Select the number of subgroups",
+                "universityDegreeFieldTitle": "Level",
+                "universityDegreeFieldPlaceholder": "Select a level",
+                "universityCourseFieldTitle": "Course",
+                "universityCourseFieldPlaceholder": "Select a course",
+                "universityFormOfEducationFieldTitle": "Form of education",
+                "universityFormOfEducationFieldPlaceholder": "Select the form of education",
+                "universityDepartmentFieldTitle": "Department",
+                "universityDepartmentFieldPlaceholder": "Select a department",
+                "universityFacultyFieldTitle": "Faculty",
+                "universityFacultyFieldPlaceholder": "Select faculty"
+              },
+              "addGroupButton": {
+                "SCHOOL": "Add classroom",
+                "COLLEGE": "Add group",
+                "UNIVERSITY": "Add group"
+              },
+              "sortName_Level": "Уровень",
+              "sortName_Course": {
+                "SCHOOL": "Класс",
+                "COLLEGE": "Курс",
+                "UNIVERSITY": "Курс"
+              },
+              "sortName_Form": {
+                "SCHOOL": "Буква",
+                "COLLEGE": "Форма",
+                "UNIVERSITY": "Форма"
+              }
+            },
+            "teachers": {
+              "toastTeacherAdded": "Teacher added",
+              "toastTeacherEdited": "Teacher data updated",
+              "toastTeacherFailedUpdate": "Failed to update teachers data",
+              "sortByFullName": "By name A-Z",
+              "sortByDegree": "By degree A-Z",
+              "sortByPosition": "By position A-Z",
+              "sortByFullNameRevert": "By name Z-A",
+              "sortByDegreeRevert": "By degree Z-A",
+              "sortByPositionRevert": "By position Z-A",
+              "teacherRemoved": "Teacher deleted successfully",
+              "emptyTitle": {
+                "UNIVERSITY": "No teachers",
+                "COLLEGE": "No teachers",
+                "SCHOOL": "No teachers"
+              },
+              "emptyDescription": {
+                "UNIVERSITY": "Add teachers,\nto activate the scheduling function",
+                "COLLEGE": "Add teachers,\nto activate the scheduling function",
+                "SCHOOL": "Add teachers,\nto activate the scheduling function"
+              },
+              "addButtonText": {
+                "UNIVERSITY": "Add teacher",
+                "COLLEGE": "Add teacher",
+                "SCHOOL": "Add teacher"
+              },
+              "addModalTitle": {
+                "UNIVERSITY": "Add teacher",
+                "COLLEGE": "Add teacher",
+                "SCHOOL": "Add teacher"
+              },
+              "editModalTitle": {
+                "UNIVERSITY": "Edit teacher",
+                "COLLEGE": "Edit teacher",
+                "SCHOOL": "Edit teacher"
+              },
+              "removeModalTitle": {
+                "UNIVERSITY": "Delete teacher",
+                "COLLEGE": "Delete teacher",
+                "SCHOOL": "Delete teacher"
+              },
+              "modalFieldFIOTitle": {
+                "UNIVERSITY": "Full name",
+                "COLLEGE": "Full name",
+                "SCHOOL": "Full name"
+              },
+              "modalFieldFIOPlaceholder": {
+                "UNIVERSITY": "Enter the name of the teacher",
+                "COLLEGE": "Enter the name of the teacher",
+                "SCHOOL": "Enter the name of the teacher"
+              },
+              "modalFieldPositionPlaceholder": {
+                "UNIVERSITY": "Enter teacher position",
+                "COLLEGE": "Enter teacher position",
+                "SCHOOL": "Enter teacher position"
+              },
+              "modalFieldDegreePlaceholder": {
+                "UNIVERSITY": "Enter teacher degree",
+                "COLLEGE": "Enter teacher discipline",
+                "SCHOOL": "Enter teacher discipline"
+              },
+              "modalFieldPositionTitle": {
+                "UNIVERSITY": "Position",
+                "COLLEGE": "Position",
+                "SCHOOL": "Position"
+              },
+              "modalFieldDegreeTitle": {
+                "UNIVERSITY": "Degree",
+                "COLLEGE": "Discipline",
+                "SCHOOL": "Discipline"
+              }
+            },
+            "subject": {
+              "counterText": "Total added: ",
+              "createButtonText": "Add subject",
+              "emptyTitle": "No subjects",
+              "emptyDescription": "Add subjects\nto activate the scheduling function",
+              "editModalTitle": "Edit subject",
+              "deleteModalTitle": "Delete subject",
+              "createModalTitle": "Add subject",
+              "createModalFieldNameTitle": "Subject name",
+              "createModalFieldNamePlaceholder": "Enter name",
+              "createModalFieldAddInAllSpecialist": "Add to all specialties",
+              "toastSubjectAdded": "Subject added",
+              "toastSubjectDeleted": "Subject deleted",
+              "toastSubjectEdited": "Subject data updated",
+              "toastSubjectFailedDelete": "Failed to delete subject",
+              "toastSubjectFailedAdd": "Failed to add subject",
+              "toastSubjectFailedEdit": "Failed to update subject data"
+            },
+            "schedule": {
+              "datePickerDescription": "Select a day or set a date range. Select a start and end date for the period.",
+              "lessonEmpty": "No lessons",
+              "lesson": {
+                "SCHOOL": "lesson",
+                "COLLEGE": "lesson",
+                "UNIVERSITY": "lesson"
+              },
+              "emptyListTitle": "Electronic timetable",
+              "emptyListDescription": {
+                "SCHOOL": "To get started, add any lesson to the schedule",
+                "COLLEGE": "To get started, add any lesson to the schedule",
+                "UNIVERSITY": "To get started, add any lesson to the schedule"
+              },
+              "addButton": {
+                "SCHOOL": "Add lesson",
+                "COLLEGE": "Add lesson",
+                "UNIVERSITY": "Add lesson"
+              },
+              "addModalTitle": {
+                "SCHOOL": "Add lesson",
+                "COLLEGE": "Add lesson",
+                "UNIVERSITY": "Add lesson"
+              },
+              "editModalTitle": {
+                "SCHOOL": "Edit lesson",
+                "COLLEGE": "Edit lesson",
+                "UNIVERSITY": "Edit lesson"
+              },
+              "week": {
+                "even": "e/w",
+                "odd": "o/w"
+              },
+              "notifyCreated": "Lesson created",
+              "notifyCreateFailed": "Failed to create lesson",
+              "notifyDeleted": "Lesson deleted",
+              "notifyEdited": "Lesson updated",
+              "notifyEditFailed": "Failed to edit lessong",
+              "fieldSettingItemTitle": "Call mode",
+              "fieldSettingItemPlaceholder": "Choose a call mode",
+              "fieldDayOfWeekTitle": "Choose a day of the week",
+              "fieldDayOfWeekPlaceholder": "Day of the week",
+              "fieldRepeatabilityTitle": "Repeatability",
+              "fieldRepeatabilityPlaceholder": "Select repeatability",
+              "fieldTypeTitle": "Lesson type",
+              "fieldTypePlaceholder": "Select class type",
+              "fieldBuildingTitle": "Building",
+              "fieldBuildingPlaceholder": "Select building",
+              "fieldClassroomNoOptionsMessage": "First select the building",
+              "fieldClassroomTitle": {
+                "SCHOOL": "Classroom",
+                "COLLEGE": "Audience",
+                "UNIVERSITY": "Audience"
+              },
+              "fieldClassroomPlaceholder": {
+                "SCHOOL": "Choose an classroom",
+                "COLLEGE": "Choose an audience",
+                "UNIVERSITY": "Choose an audience"
+              },
+              "fieldTeacherTitle": "Teacher",
+              "fieldTeacherPlaceholder": "Select a teacher",
+              "fieldSubjectTitle": "Subject",
+              "fieldSubjectPlaceholder": "Select a subject",
+              "fieldSubgroupTitle": "Subgroup",
+              "fieldSubgroupPlaceholder": "Select subgroup",
+              "fieldRepeatStartTitle": {
+                "SCHOOL": "First lesson",
+                "COLLEGE": "First lesson",
+                "UNIVERSITY": "First lesson"
+              },
+              "fieldRepeatStartPlaceholder": "Select a date",
+              "fieldRepeatEndTitle": {
+                "SCHOOL": "Last lesson",
+                "COLLEGE": "Last lesson",
+                "UNIVERSITY": "Last lesson"
+              },
+              "fieldRepeatEndPlaceholder": "Select a date",
+              "tableNotify": "To add a couple, click on the “Add a couple” button or click on the plus in the schedule cell"
+            }
+          },
+          "enum": {
+            "EScheduleType": {
+              "1": "Lecture",
+              "2": "Internship",
+              "3": "Educational practice",
+              "4": "Consultation",
+              "5": "Exam"
+            }
+          },
+          "schedule": {
+            "headTitle": "Electronic timetable",
+            "tabItemSearchByGroup": {
+              "UNIVERSITY": "Search by group",
+              "COLLEGE": "Search by group",
+              "SCHOOL": "Search by class"
+            },
+            "tabItemSearchByTeacher": {
+              "UNIVERSITY": "Search by teacher",
+              "COLLEGE": "Search by teacher",
+              "SCHOOL": "Search by teacher"
+            },
+            "tabItemSearchByClassroom": {
+              "UNIVERSITY": "Search by audience",
+              "COLLEGE": "Search by audience",
+              "SCHOOL": "Search by classroom"
+            },
+            "showSchedule": "Show schedule",
+            "groupFieldTitle": "Group",
+            "scheduleTitle": "Schedule",
+            "backToTheScheduleFilter": "Back to the filters",
+            "downloadXLS": "Download XLS",
+            "groupFieldPlaceholder": "Select a group",
+            "fixedDate": {
+              "now": "Now",
+              "tomorrow": "Tomorrow",
+              "currentWeek": "Current week",
+              "nextWeek": "Next week"
+            }
+          },
+          "ContentBlockHead": {
+            "today": "Today",
+            "time": "Time"
+          }
+        },
+        "Login": {
+          "fieldEmailTitle": "Email",
+          "fieldEmailPlaceholder": "Enter email",
+          "fieldPasswordTitle": "Password",
+          "fieldPasswordPlaceholder": "Enter password",
+
+          "submitButton": "Login",
+          "submitError": "Invalid email and/or password"
+        }
+      },
+      "features": {
+        "user": {
+          "user-logout-button": {
+            "exit": "Logout"
+          }
+        },
+        "study-schedule": {
+          "building": {
+            "addBuildingButton": "Add building",
+            "emptyBuildingTitle": "No building",
+            "emptyBuildingDescription": "Add cases and their addresses to activate\nsection \"classroom\" in the schedule",
+            "RemoveHeaderTitle": "Delete building",
+            "buildingRemovedToast": "Building deleted successfully",
+            "searchInputPlaceholder": "Enter the title",
+            "buildingModalAddTitle": "Add building",
+            "buildingModalEditTitle": "Edit building",
+            "buildingModalFieldTitle": "Building number",
+            "buildingModalFieldAddress": "Address",
+            "buildingModalFieldClassroom": "Classrooms/Auditoriums",
+            "buildingModalFieldTitle_placeholder": "Enter number",
+            "buildingModalFieldAddress_placeholder": "Enter address",
+            "buildingModalFieldClassroom_placeholder": "Fill in the classroom"
+          },
+          "settings": {
+            "settings-modes": {
+              "modalCreator": {
+                "headerTitle": "Add call mode",
+                "field_name": "Mode name",
+                "field_name_placeholder": "Enter mode name",
+                "field_lessons": "Number of lessons",
+                "field_lessons_hint": "1 cell = 1 lesson",
+                "saveButton": "Save"
+              },
+              "ModeRemoveTitle": "Mode",
+              "editingCanceled": "Editing cancelled!",
+              "rename": "Rename",
+              "delete": "Delete",
+              "lessonItem": "lesson",
+              "lessonsError": "Could not find selected mode",
+              "add": "Add call mode",
+              "emptyLessonTitle": "No lessons",
+              "emptyLessonDescription": "Add lessons to continue\ncall mode setting",
+              "emptyModesTitle": "No modes",
+              "emptyModesDescription": "Add modes to get started"
+            }
+          },
+          "timetable": {
+            "timetable-filter": {
+              "submitFormButton": "Show schedule",
+              "Tabs": {
+                "UNIVERSITY": {
+                  "group": "Search by group",
+                  "teacher": "Search by teacher",
+                  "room": "Search by classroom"
+                },
+                "COLLEGE": {
+                  "group": "Search by group",
+                  "teacher": "Search by teacher",
+                  "room": "Search by classroom"
+                },
+                "SCHOOL": {
+                  "group": "Search by class",
+                  "teacher": "Search by teacher",
+                  "room": "Search by cabinet"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
